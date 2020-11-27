@@ -1,0 +1,16 @@
+.page-navigation .page{
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .page-navigation .page:hover:not(.active){
+    background: #ccc;
+  }
+  
+  .page-navigation .page.active{
+    background: #333;
+    color: #fff;
+    cursor: default;
+  }
